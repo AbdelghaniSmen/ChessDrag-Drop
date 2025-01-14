@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Drag & Drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gameboard">
+
+        <div id="line">
+            <div class="square brown" data-row="1" data-col="1"></div>
+            <div class="square beige" data-row="1" data-col="2"></div>
+            <div class="square brown" data-row="1" data-col="3"></div>
+        </div>
+    
+        <div id="line">
+            <div class="square beige" data-row="2" data-col="1"></div>
+            <div class="square brown" data-row="2" data-col="2">
+                <img src="image/chess-king-solid.png" id="king" class="king" draggable/>
+            </div>
+            <div class="square beige" data-row="2" data-col="3"></div>
+        </div>
+    
+        <div id="line">
+            <div class="square brown" data-row="3" data-col="1"></div>
+            <div class="square beige" data-row="3" data-col="2"></div>
+            <div class="square brown" data-row="3" data-col="3"></div>
+        </div>
+
+    </div>
+    
+
+    <p id="info"></p>
+    
+    <script src="app.js"></script>
+</body>
+</html>

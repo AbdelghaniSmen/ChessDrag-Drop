@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    flex-direction: column;
+    background-color: #450303;
+}
+
+#line{
+    display: flex;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beige{
+    background-color: rgb(227, 227, 199);
+}
+
+.brown{
+    background-color: rgb(96, 54, 54);
+}
+
+.square img{
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    height: 30px;
+    color: #ffe4c4;
+    font-size: medium;
+}
+
+.king{
+    width: 200px;
+    height: 200px;
+}
+
+.highlight{
+    background-color: rgb(233, 102, 102);
+}
+
+.target{
+    border: solid 10px rgb(169, 56, 56);
+    box-sizing: border-box;
+}
